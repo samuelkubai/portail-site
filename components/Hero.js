@@ -24,9 +24,9 @@ class Hero extends Component {
 
           <div className="s-hero__action">
             <input type="text" value="> brew install portal" readOnly={true} />
-            <button>
-              Copy to clipboard
-            </button>
+            <a target="_blank" href="https://dl.dropbox.com/s/o4336tvlkuadeh5/Portail-darwin-x64-1.0.1.zip?dl=0">
+               Download Portail
+            </a>
           </div>
         </div>
       </div>
