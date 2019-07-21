@@ -1,0 +1,132 @@
+.s-value-prop {
+  background: #EDF8FF;
+  color: #1E2834;
+  padding: 48px 0;
+  width: 100vw;
+}
+
+.s-value-prop__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+
+  max-width: 327px;
+  margin: 0 auto;
+}
+
+.s-value-prop__headline {
+  color: #1E2834;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 32px;
+}
+
+.s-value-prop__tagline {
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.s-value-prop__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.s-value-prop__list-item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  margin-top: 48px;
+}
+
+.s-value-prop__icon {
+  height: 60px;
+  width: 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: 0 0 16px rgba(30, 40, 52, 0.25);
+}
+
+.s-value-prop__list-item-title {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 19px;
+  margin-top: 18px;
+}
+
+.s-value-prop__list-item-description {
+  max-width: 192px;
+
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+@media (min-width: 640px) {
+  .s-value-prop__container {
+    max-width: calc(640px - 106px - 106px);
+  }
+
+  .s-value-prop__headline {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .s-value-prop__tagline {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 428px;
+  }
+
+  .s-value-prop__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .s-value-prop__list-item-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (min-width: 762px) {
+  .s-value-prop__container {
+    max-width: calc(762px - 130px - 130px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .s-value-prop__container {
+    max-width: calc(1024px - 36px - 36px);
+  }
+
+  .s-value-prop__list {
+    width: 100%;
+  }
+
+  .s-value-prop__list li:nth-child(2n) {
+    margin-top: 96px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .s-value-prop__container {
+    max-width: calc(1280px - 36px - 36px);
+  }
+}

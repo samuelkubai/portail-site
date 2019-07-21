@@ -1,0 +1,134 @@
+.s-hero {
+  background-image: url("../static/mobile-hero.svg");
+  background-position: top 50% right -188px;
+  background-repeat: no-repeat;
+}
+
+.s-hero__container {
+  max-width: 327px;
+  margin: 0 auto;
+  padding: 48px 0 96px;
+}
+
+.s-hero__headline {
+  font-size: 18px;
+  line-height: 21px;
+  margin-top: 64px;
+}
+
+.s-hero__tagline {
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 12px;
+}
+
+.s-hero__action {
+  margin-top: 64px;
+
+  input, button {
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 4px 12px
+  }
+
+  input {
+    background: #FFFFFF;
+    border: 1px solid #CDD6DF;
+    border-radius: 4px 0 0 4px;
+  }
+
+  button {
+    background: #153C55;
+    border: 1px solid #153C55;
+    border-radius: 0 4px 4px 0;
+    color: #FFFFFF;
+    margin-left: -1px;
+  }
+
+  button:active, button:hover {
+    background: #5C6B7B;
+    outline: none;
+  }
+}
+
+@media (min-width: 640px) {
+  .s-hero {
+    background-position: top 50% right -148px;
+  }
+
+  .s-hero__container {
+    max-width: 544px;
+    padding-right: 48px;
+  }
+
+  .s-hero__headline {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .s-hero__tagline {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 427px;
+  }
+
+  .s-hero__action {
+    margin-top: 32px;
+
+    input, button {
+      font-size: 16px;
+    }
+
+    input {
+      min-width: 326px;
+      padding: 12px 16px
+    }
+
+    input:active, input:focus {
+      outline: none;
+    }
+
+    button {
+      padding: 12px 22px;
+    }
+  }
+}
+
+@media (min-width: 762px) {
+  .s-hero {
+    background-position: top 50% right -138px;
+  }
+
+  .s-hero__container {
+    max-width: calc(762px - 48px - 48px);
+  }
+
+  .s-hero__tagline {
+    max-width: 427px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .s-hero {
+    background-image: none;
+  }
+
+  .s-hero__container {
+    background-image: url("../static/desktop-hero.svg");
+    background-repeat: no-repeat;
+    background-position: top 50% right 0;
+    max-width: calc(1024px - 48px - 48px);
+    padding-bottom: 162px;
+  }
+
+  .s-hero__headline {
+    margin-top: 124px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .s-hero__container {
+    max-width: calc(1280px - 48px - 48px);
+  }
+}

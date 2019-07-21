@@ -1,0 +1,31 @@
+.s-footer {
+  padding: 12px 0;
+}
+
+.s-footer__container {
+  color: #1E2834;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+
+  a {
+    color: #1E2834;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 24px;
+    text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 640px) {
+  .s-footer__container {
+    font-size: 16px;
+    line-height: 24px;
+
+    a {
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+}
