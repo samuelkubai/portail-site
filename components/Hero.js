@@ -19,7 +19,7 @@ class Hero extends Component {
 
           <div className="s-hero__tagline">
             Portail is a beautiful, flexible screen recording app built with the user in mind.
-            This is our public apha shoot some feeedback our way
+            This is our public alpha shoot some feedback our way
           </div>
 
           <div className="s-hero__action">
